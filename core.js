@@ -111,7 +111,7 @@ if (Log) {
             if (UserExist.password === password) {
                 alert('Ви увійшли в аккаунт!')
                 localStorage.setItem('logined', login)
-                window.location.href = '1_main.html'
+                window.location.href = 'index.html'
             } else {
                 alert('Пароль не вірний!')
             }
@@ -125,7 +125,7 @@ if (Log) {
             localStorage.setItem('logined', login)
             login = ''
             password = ''
-            window.location.href = '1_main.html'
+            window.location.href = 'index.html'
         }
     })
 }
@@ -204,3 +204,4 @@ cards.forEach((card) => {
         }))
     })
 })
+
